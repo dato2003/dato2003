@@ -1,0 +1,10 @@
+<h1>   all users   </h1>
+<ul>
+{% for data in  data %}
+   <l1>( name: {{  data.name  }}  /
+       lastname:{{  data.lasatname  }}   /
+       email:{{data.email}}  /
+        password:{{data.passsword}}),
+    </l1>
+{% endfor %}
+</ul>
