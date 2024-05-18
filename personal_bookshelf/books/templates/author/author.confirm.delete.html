@@ -1,0 +1,5 @@
+<form method= "POST"> {%csrf_token%}
+    <h1>   do you wont delete author {{author.name}}      </h1>
+    <input type="submit" value="YES">
+</form>
+<a href = "{% url 'author.detail' author.pk %}">NO take me back  </a>
